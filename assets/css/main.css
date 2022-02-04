@@ -155,7 +155,7 @@ input, select, textarea {
 		-ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		border-bottom: dotted 1px;
-		color: #000;
+		color: inherit;
 		text-decoration: none;
 	}
 
@@ -729,6 +729,7 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			margin-left: 0;
+			color: #000;
 		}
 
 			ul.actions.stacked li {
@@ -966,6 +967,8 @@ input, select, textarea {
 
 		#footer .copyright {
 			list-style: none;
+			line-height: 1em;
+			text-align: left;
 			padding: 0;
 		}
 
