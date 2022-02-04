@@ -185,6 +185,10 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: garamond-premier-pro-display, serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 0.04em;
 	}
 
 		p.major {
@@ -192,9 +196,12 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-family: sofia-pro, sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		text-transform: uppercase;
 		line-height: 1.375;
-		letter-spacing: -0.05em;
+		letter-spacing: 0.01em;
 		margin: 0 0 1rem 0;
 	}
 
@@ -2104,7 +2111,9 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-family: sofia-pro, sans-serif;
+		font-weight: 100;
+		font-style: normal;
 		letter-spacing: 0.125em;
 		text-align: center;
 		text-decoration: none;
@@ -2788,10 +2797,11 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			margin-left: 0;
+			margin-top: 4em;
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 0.2em 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
