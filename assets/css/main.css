@@ -159,6 +159,11 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	#nav {
+		text-align: left;
+		margin-top: 2em;
+	}
+
 	h1 a {
 		border-bottom-color: transparent;
 	}
@@ -178,10 +183,10 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1.25em 0;
-		font-family: garamond-premier-pro-display, serif;
+		font-family: sofia-pro, sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		letter-spacing: 0.04em;
+		letter-spacing: 0.06em;
 		color: #000;
 	}
 
@@ -302,13 +307,13 @@ input, select, textarea {
 		transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
 		background-color: transparent;
 		border-radius: 2em;
-		border: solid 1px #000;
+		border: solid 1.75px #000;
 		color: #000;
 		cursor: pointer;
 		display: inline-block;
 		line-height: 1;
 		padding: 0.75em 1.5em;
-		text-align: right;
+		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
 	}
